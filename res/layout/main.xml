@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" >
+  
+<ScrollView 
+   android:id="@+id/editcard1"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:scrollbars="none"
+   android:background="@drawable/grass"
+   >
+   <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        >
+        <ImageButton 
+            android:background="@drawable/grass"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="10dp"
+            android:id="@+id/imagebutton"
+            android:contentDescription="@string/description"
+          />
+        <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_marginLeft="1dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/name1"
+             />
+
+
+
+         <EditText
+             android:id="@+id/name2"
+             android:layout_width="130dp"
+             android:layout_height="40dp" 
+             android:inputType="text"/>
+
+         <TextView
+            android:id="@+id/telphone1"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/telphone1"
+             />
+
+         <EditText
+             android:id="@+id/telphone2"
+             android:layout_width="130dp"
+             android:layout_height="40dp" 
+             android:inputType="text"/>
+         
+            </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <TextView
+            android:id="@+id/university1"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/university1" />
+
+        <EditText
+            android:id="@+id/university2"
+            android:layout_width="130dp"
+            android:layout_height="40dp" 
+             />
+    </LinearLayout>
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <TextView
+            android:id="@+id/college1"
+            android:layout_width="170dp"
+            android:gravity="center"
+            android:layout_height="40dp"
+            android:text="@string/college1" />
+
+        <EditText
+            android:id="@+id/college2"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+              />
+    </LinearLayout>
+    
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <TextView
+            android:id="@+id/grade1"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/grade1" />
+
+        <EditText
+            android:id="@+id/grade2"
+            android:layout_width="130dp"
+            android:layout_height="40dp" 
+             />
+    </LinearLayout>
+    
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <TextView
+            android:id="@+id/hometown1"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/hometown1" />
+
+        <EditText
+            android:id="@+id/hometown2"
+            android:layout_width="130dp"
+            android:layout_height="40dp" 
+             />
+    </LinearLayout>
+ 
+    
+  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <TextView
+            android:id="@+id/QQ1"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/QQ1" />
+
+        <EditText
+            android:id="@+id/QQ2"
+            android:layout_width="130dp"
+            android:layout_height="40dp" 
+            android:inputType="text"/>
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <TextView
+            android:id="@+id/email1"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/email1" />
+
+        <EditText
+            android:id="@+id/email2"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+           
+            android:inputType="text" />
+    </LinearLayout>
+  
+ 
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:text="@string/commit" />
+    <Button 
+        android:id="@+id/button2"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="@string/cancel" />
+        
+    </LinearLayout>    
+</LinearLayout>
+</ScrollView>
+<LinearLayout android:id="@+id/webview1"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		
+		>
+
+   <ListView android:id="@+id/name_of_friend"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stackFromBottom="true"
+        android:background="@drawable/grass"/>
+</LinearLayout>
+</FrameLayout>

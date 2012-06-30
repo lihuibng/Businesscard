@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Card</string>
+    <string name="app_name">Card</string>
+    <string name="textview01">Login</string>
+    <string name="textview02">photo</string>
+    <string name="userid">account</string>
+    <string name="passwd">Password</string>
+    <string name="commit">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="login">Login</string>
+    <string name="cancel2">Cancel</string>
+    <string name="lgin">Login</string>
+    <string name="register">Register</string>
+    <string name="name1">Name</string>
+    <string name="telphone1">Phone</string>
+    <string name="university1">University</string>
+    <string name="college1">College</string>
+    <string name="QQ1">QQ</string>
+    <string name="email1">Email</string>
+    <string name="grade1">Grade</string>
+    <string name="hometown1">Home</string>
+    <string name="ok1">Ok</string>
+    <string name="back1">Back</string>
+    <string name="gallerytext">Gallery</string>
+    <string name="capture">Capture</string>
+    <string name="choose_button_OK">OK</string>
+    <string name="choose_button_close">Close</string>
+    <string name= "capture_camera_1">Camera</string>
+    <string name="description">1</string>
+    <string name="university">Jilin University</string>
+    <string name="college">Software</string>
+    <string name="grade">2009</string> 
+    <string name="hometown">Hubei</string> 
+    <string name="call">Call</string>  
+    <string name="make_call">Make Call</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grass" >
+   <TextView
+            android:id="@+id/name_view"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+             />
+     <TextView
+            android:id="@+id/phone_view"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+             />
+     <TextView
+            android:id="@+id/university_view"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+             />
+       <TextView
+            android:id="@+id/college_view"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+             />
+       <TextView
+            android:id="@+id/grade_view"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+             />
+       
+         <TextView
+            android:id="@+id/home_view"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+             />
+         <TextView
+            android:id="@+id/qq_view"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+             />
+           <TextView
+            android:id="@+id/email_view"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+             />
+         
+         
+    <Button
+        android:id="@+id/call"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/call" />
+
+</LinearLayout>
